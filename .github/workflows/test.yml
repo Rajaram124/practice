@@ -12,7 +12,8 @@ jobs:
     steps:
 
     - name: Create Folder
-      run: mkdir ~/test
-      run: pwd
-      run: ls
+      run: 
+        mkdir ~/test
+        pwd
+        ls
       
