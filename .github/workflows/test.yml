@@ -32,4 +32,4 @@ jobs:
           script: |
             cd /home/ubuntu/ramm/tam
             ssh -i pem.pem ubuntu@54.241.94.174
-            touch kingsland.txt
+            touch kingslandnithin.txt
