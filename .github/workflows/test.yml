@@ -10,10 +10,10 @@ jobs:
     runs-on: self-hosted
 
     steps:
-
     - name: Create Folder
       run: |
-        mkdir ~/test
-        pwd
-        ls
-      
+        echo "Home Directory: $HOME"  # Show the home directory
+        mkdir -p $HOME/test  # Create the folder (use -p to avoid error if folder exists)
+        pwd  # Print the current working directory
+        ls  # List the contents of the current directory
+        ls $HOME  # List the contents of the home directory
