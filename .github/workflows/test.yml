@@ -12,7 +12,7 @@ jobs:
     steps:
 
     - name: Create Folder
-      run: 
+      run: |
         mkdir ~/test
         pwd
         ls
