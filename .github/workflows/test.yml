@@ -30,6 +30,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /home/ubuntu/ramm/tam
-            ssh -i pem.pem ubuntu@54.241.94.174
+            cd /home/ubuntu/ramm/tam && ssh -i pem.pem ubuntu@54.241.94.174
             touch kingslandnithin.txt
